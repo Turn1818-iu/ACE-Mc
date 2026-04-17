@@ -15,10 +15,10 @@ if %errorlevel% neq 0 (
   exit /b %errorlevel%
 )
 
-jar cf AntiCheatExpert-1.5.0.jar -C build\classes . -C src\main\resources .
+jar cf AntiCheatExpert-2.0.0.jar -C build\classes . -C src\main\resources .
 if %errorlevel% neq 0 (
   echo Jar packaging failed.
   exit /b %errorlevel%
 )
 
-echo Build complete: AntiCheatExpert-1.5.0.jar
+echo Build complete: AntiCheatExpert-2.0.0.jar
